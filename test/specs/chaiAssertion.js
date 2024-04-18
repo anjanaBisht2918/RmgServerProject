@@ -34,7 +34,8 @@ describe(' ', ()=>{
         expect(monthSplit).to.be.an('array').to.have.length(12);
         expect(monthSplit).to.be.an('array').that.includes('Jan');
         let msg = "hello"
-        expect(msg).to.have.lengthOf(msg)
+        expect(msg).to.have.lengthOf(msg);
+        await browser.pause(3000)
 
     });
 
