@@ -24,9 +24,9 @@ export const config = {
     //
     specs: [
         //for executing testScript
-       // './test/specs/**/*.js'
-      './test/specs/fetchPriceAndName.js',
-      './test/specs/fetchDataFromEXcel.js'
+        './test/specs/**/*.js'
+    //   './test/specs/fetchPriceAndName.js',
+    //   './test/specs/fetchDataFromEXcel.js'
 
 
     ],
@@ -36,7 +36,7 @@ export const config = {
     ],
 
     suites:{
-        smoke:['./test/specs/loginInPractice.js','test/specs/fetchPriceAndName.js']
+      //  smoke:['./test/specs/loginInPractice.js','test/specs/fetchPriceAndName.js']
     },
     //
     // ============
